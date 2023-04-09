@@ -1,3 +1,7 @@
+
+
+/* Class/ID Selector Practice */
+
 .odd-elements {
   background-color: rgb(225, 157, 169);
   font-family: Verdana, DejaVu Sans, sans-serif;
@@ -17,4 +21,42 @@
   background-color: hsl(120, 73%, 75%);
   font-size: 24px;
   font-weight: bold;
+}
+
+/* Grouping Selector Practice Below*/
+
+
+
+.click-me,
+.no-click-me {
+  font-size: 28px;
+  font-family: Helvetica, 'Times New Roman', sans-serif;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/*Click Me Button */
+
+.click-me{
+  background-color: black;
+  color: white;
+}
+
+.click-me:hover {
+  background-color: lightgray;
+  box-shadow: 5px 5px;
+}
+
+
+/* No Click Me Button*/
+
+.no-click-me:hover {
+  background-color: lightgray;
+  box-shadow: 5px 5px;
+}
+
+
+.no-click-me{
+  background-color: yellow;
+  color: black;
 }
