@@ -1,0 +1,66 @@
+/*My solution made it work, yet there is still a bit more of an efficient way to solve the problem.
+I will add CSS solution for comparison*/
+
+
+
+
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+
+.page {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.media {
+  display: flex;
+  margin-right: 52px;
+  justify-content: center;
+  max-width: 200px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.text {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* do not edit this footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+
