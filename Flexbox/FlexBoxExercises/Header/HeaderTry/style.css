@@ -1,0 +1,59 @@
+/* This is my attempt at the header exercise before seeing the solution.
+My header does not match exactly, but it is close. I know there is a more 
+efficient way to handle this which I will document next. */
+
+
+
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+
+
+.right-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 20px;
+}
+
+
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+ 
+}
