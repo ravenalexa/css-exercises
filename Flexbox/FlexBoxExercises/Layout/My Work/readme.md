@@ -9,6 +9,6 @@ I am still working to achieve my goals in a more simple and efficient fashion.
 
 Though my approach to creating the layout was not ideal, I did add a few cool features.
 
-I added a placeholder for the search bar, a cursor for the buttons, as well as hover and transition.
+I added a placeholder for the search bar, a pointer cursor for the buttons, as well as hover and transition.
 
 I plan to try this project with a new approach after further study.
