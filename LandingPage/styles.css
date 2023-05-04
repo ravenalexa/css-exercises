@@ -1,0 +1,184 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*============= HEADER  STYLES  =============*/
+
+
+.header {
+  background: #003366;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  color: white;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/*============= SECTION  1  STYLES  =============*/
+
+.section-one {
+  background: #003366;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-one-text {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 8px;
+}
+
+
+
+.section-one-text h2 {
+  color: white;
+  text-align: center;
+}
+.section-one-text pre {
+  color: rgb(153, 148, 148);
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  color: #E7B100;
+  box-shadow: 2px 2px;
+}
+
+.section-one-img {
+  padding: 8px 10px 8px 8px;
+}
+
+.section-one-dog {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 250px;
+
+}
+
+
+/*============= SECTION  2  STYLES  =============*/
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  background: rgb(215, 214, 214);
+  padding: 50px;
+}
+
+.section-two-text {
+  text-align: center;
+  padding: 15px 0px 60px 0px;
+}
+
+
+.section-two-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-two-dog {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid #003366;
+  border-radius: 10px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 16px;
+}
+
+
+/*============= SECTION  3  STYLES  =============*/
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  background: #E7B100;
+  padding: 150px;
+}
+
+.quote {
+  font-size: xx-large;
+  text-align: center;
+  font-style: italic;
+  color: rgb(153, 148, 148);
+  align-self: center;
+  padding-top: 50px;
+}
+
+.author {
+  text-align: end;
+  padding: 50px 60px 0px 0px;
+  font-size: x-large;
+}
+
+
+/*============= SECTION  4  STYLES  =============*/
+
+.section-four {
+  background: white;
+}
+
+
+.section-four-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #003366;
+  border-radius: 25px;
+  padding: 60px;
+  margin: 100px;
+}
+
+.bold {
+  font-size: larger;
+  color: white;
+  padding-bottom: 8px;
+}
+
+.section-four-text p {
+  color: white;
+}
+
+.section-four-btn button {
+ margin-left: 30px;
+}
+
+/*============= FOOTER  STYLES  =============*/
+
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
